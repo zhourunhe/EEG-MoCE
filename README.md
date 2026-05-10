@@ -1,4 +1,12 @@
-# EEG-MoCE: EEG-Based Multimodal Learning via Hyperbolic Mixture-of-Curvature Experts
+# EEG-Based Multimodal Learning via Hyperbolic Mixture-of-Curvature Experts
+
+This is the PyTorch implementation of the EEG-MoCE in our paper:
+
+> **[EEG-Based Multimodal Learning via Hyperbolic Mixture-of-Curvature Experts](https://arxiv.org/abs/2604.12579)**  
+> Runhe Zhou, Shanglin Li, Guanxiang Huang, Xinliang Zhou, Qibin Zhao, Motoaki Kawanabe, Yi Ding, Cuntai Guan  
+> *International Conference on Machine Learning (ICML), 2026*  
+
+## Dataset
 
 This is the implementation of EEG-MoCE for emotion recognition using the **EAV Dataset**. 
 For more information about the dataset, please refer to:
@@ -43,4 +51,23 @@ python main-Multimodal.py \
 ```
 
 Results will be saved in the `results/` directory.
+
+## CBCR License
+
+| Permissions     | Limitations         | Conditions                       |
+| --------------- | ------------------- | -------------------------------- |
+| ✅ Modification  | ❌ Commercial use   | ⚠️ License and copyright notice |
+| ✅ Distribution |                     |                                  |
+| ✅ Private use  |                     |                                  |
+
+## Cite
+
+```bibtex
+@inproceedings{zhou2026eegmoce,
+  title={EEG-Based Multimodal Learning via Hyperbolic Mixture-of-Curvature Experts},
+  author={Zhou, Runhe and Li, Shanglin and Huang, Guanxiang and Zhou, Xinliang and Zhao, Qibin and Kawanabe, Motoaki and Ding, Yi and Guan, Cuntai},
+  booktitle={Forty-Third International Conference on Machine Learning},
+  year={2026}
+}
+```
 
